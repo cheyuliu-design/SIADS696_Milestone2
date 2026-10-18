@@ -1,0 +1,1801 @@
+{
+ "tuning_best": {
+  "gradient boosting": {
+   "params": "{'learning_rate': 0.1, 'max_leaf_nodes': 127, 'max_iter': 300}",
+   "val_ap": "0.625"
+  },
+  "logistic regression": {
+   "params": "{'C': 10.0}",
+   "val_ap": "0.551"
+  },
+  "naive Bayes": {
+   "params": "{'alpha': 0.1}",
+   "val_ap": "0.521"
+  },
+  "random forest": {
+   "params": "{'max_features': 0.1, 'min_samples_leaf': 5}",
+   "val_ap": "0.608"
+  }
+ },
+ "tuning_rows": [
+  [
+   "logistic regression",
+   "{C: 0.01}",
+   "0.544",
+   "0.797",
+   "51"
+  ],
+  [
+   "logistic regression",
+   "{C: 0.1}",
+   "0.550",
+   "0.799",
+   "28"
+  ],
+  [
+   "logistic regression",
+   "{C: 1.0}",
+   "0.551",
+   "0.798",
+   "37"
+  ],
+  [
+   "logistic regression",
+   "{C: 10.0}",
+   "0.551",
+   "0.798",
+   "15"
+  ],
+  [
+   "naive Bayes",
+   "{alpha: 0.1}",
+   "0.521",
+   "0.785",
+   "2"
+  ],
+  [
+   "naive Bayes",
+   "{alpha: 1.0}",
+   "0.521",
+   "0.785",
+   "2"
+  ],
+  [
+   "naive Bayes",
+   "{alpha: 10.0}",
+   "0.521",
+   "0.785",
+   "1"
+  ],
+  [
+   "random forest",
+   "{max_features: sqrt, min_samples_leaf: 5}",
+   "0.599",
+   "0.818",
+   "59"
+  ],
+  [
+   "random forest",
+   "{max_features: sqrt, min_samples_leaf: 25}",
+   "0.562",
+   "0.802",
+   "73"
+  ],
+  [
+   "random forest",
+   "{max_features: sqrt, min_samples_leaf: 100}",
+   "0.531",
+   "0.786",
+   "69"
+  ],
+  [
+   "random forest",
+   "{max_features: 0.1, min_samples_leaf: 5}",
+   "0.608",
+   "0.821",
+   "243"
+  ],
+  [
+   "random forest",
+   "{max_features: 0.1, min_samples_leaf: 25}",
+   "0.574",
+   "0.807",
+   "162"
+  ],
+  [
+   "random forest",
+   "{max_features: 0.1, min_samples_leaf: 100}",
+   "0.542",
+   "0.792",
+   "97"
+  ],
+  [
+   "gradient boosting",
+   "{learning_rate: 0.05, max_leaf_nodes: 31, max_iter: 300}",
+   "0.604",
+   "0.821",
+   "504"
+  ],
+  [
+   "gradient boosting",
+   "{learning_rate: 0.1, max_leaf_nodes: 31, max_iter: 300}",
+   "0.613",
+   "0.825",
+   "117"
+  ],
+  [
+   "gradient boosting",
+   "{learning_rate: 0.1, max_leaf_nodes: 63, max_iter: 300}",
+   "0.621",
+   "0.829",
+   "93"
+  ],
+  [
+   "gradient boosting",
+   "{learning_rate: 0.1, max_leaf_nodes: 127, max_iter: 300}",
+   "0.625",
+   "0.830",
+   "209"
+  ],
+  [
+   "gradient boosting",
+   "{learning_rate: 0.05, max_leaf_nodes: 63, max_iter: 600}",
+   "0.621",
+   "0.829",
+   "191"
+  ],
+  [
+   "gradient boosting",
+   "{learning_rate: 0.2, max_leaf_nodes: 63, max_iter: 300}",
+   "0.622",
+   "0.829",
+   "148"
+  ],
+  [
+   "gradient boosting",
+   "{learning_rate: 0.1, max_leaf_nodes: 255, max_iter: 300}",
+   "0.624",
+   "0.829",
+   "651"
+  ]
+ ],
+ "cv_rows": [
+  [
+   "prior",
+   "0.258 \u00b1 0.000",
+   "0.500 \u00b1 0.000",
+   "0.192 \u00b1 0.000",
+   "0.0"
+  ],
+  [
+   "logistic regression",
+   "0.567 \u00b1 0.003",
+   "0.802 \u00b1 0.003",
+   "0.149 \u00b1 0.001",
+   "5.3"
+  ],
+  [
+   "naive Bayes",
+   "0.516 \u00b1 0.003",
+   "0.777 \u00b1 0.002",
+   "0.207 \u00b1 0.001",
+   "0.5"
+  ],
+  [
+   "random forest",
+   "0.624 \u00b1 0.003",
+   "0.823 \u00b1 0.002",
+   "0.141 \u00b1 0.001",
+   "25.8"
+  ],
+  [
+   "gradient boosting",
+   "0.645 \u00b1 0.004",
+   "0.834 \u00b1 0.003",
+   "0.136 \u00b1 0.001",
+   "187.0"
+  ]
+ ],
+ "final_rows": [
+  [
+   "prior",
+   "0.262",
+   "0.500",
+   "0.193",
+   "0.500",
+   "0.000",
+   "0.000",
+   "0.000",
+   "0.0%",
+   "0"
+  ],
+  [
+   "logistic regression",
+   "0.534",
+   "0.788",
+   "0.156",
+   "0.253",
+   "0.458",
+   "0.767",
+   "0.573",
+   "43.9%",
+   "21"
+  ],
+  [
+   "naive Bayes",
+   "0.508",
+   "0.778",
+   "0.217",
+   "0.164",
+   "0.447",
+   "0.780",
+   "0.568",
+   "45.6%",
+   "2"
+  ],
+  [
+   "random forest",
+   "0.587",
+   "0.811",
+   "0.147",
+   "0.318",
+   "0.485",
+   "0.749",
+   "0.589",
+   "40.4%",
+   "190"
+  ],
+  [
+   "gradient boosting",
+   "0.602",
+   "0.818",
+   "0.145",
+   "0.310",
+   "0.499",
+   "0.738",
+   "0.596",
+   "38.6%",
+   "265"
+  ]
+ ],
+ "final_val": {
+  "prior": {
+   "ap": "0.260",
+   "auc": "0.500"
+  },
+  "logistic regression": {
+   "ap": "0.551",
+   "auc": "0.798"
+  },
+  "naive Bayes": {
+   "ap": "0.521",
+   "auc": "0.785"
+  },
+  "random forest": {
+   "ap": "0.627",
+   "auc": "0.829"
+  },
+  "gradient boosting": {
+   "ap": "0.635",
+   "auc": "0.834"
+  }
+ },
+ "final_test": {
+  "prior": {
+   "avg_precision": "0.262",
+   "roc_auc": "0.500",
+   "brier": "0.193",
+   "threshold": "0.500",
+   "precision": "0.000",
+   "recall": "0.000",
+   "f1": "0.000",
+   "alert_rate": "0.000",
+   "fit_seconds": "0.026",
+   "tp": "0",
+   "fp": "0",
+   "fn": "384861",
+   "tn": "1086838"
+  },
+  "logistic regression": {
+   "avg_precision": "0.534",
+   "roc_auc": "0.788",
+   "brier": "0.156",
+   "threshold": "0.253",
+   "precision": "0.458",
+   "recall": "0.767",
+   "f1": "0.573",
+   "alert_rate": "0.439",
+   "fit_seconds": "20.633",
+   "tp": "295345",
+   "fp": "350116",
+   "fn": "89516",
+   "tn": "736722"
+  },
+  "naive Bayes": {
+   "avg_precision": "0.508",
+   "roc_auc": "0.778",
+   "brier": "0.217",
+   "threshold": "0.164",
+   "precision": "0.447",
+   "recall": "0.780",
+   "f1": "0.568",
+   "alert_rate": "0.456",
+   "fit_seconds": "2.416",
+   "tp": "300034",
+   "fp": "371676",
+   "fn": "84827",
+   "tn": "715162"
+  },
+  "random forest": {
+   "avg_precision": "0.587",
+   "roc_auc": "0.811",
+   "brier": "0.147",
+   "threshold": "0.318",
+   "precision": "0.485",
+   "recall": "0.749",
+   "f1": "0.589",
+   "alert_rate": "0.404",
+   "fit_seconds": "190.423",
+   "tp": "288363",
+   "fp": "306117",
+   "fn": "96498",
+   "tn": "780721"
+  },
+  "gradient boosting": {
+   "avg_precision": "0.602",
+   "roc_auc": "0.818",
+   "brier": "0.145",
+   "threshold": "0.310",
+   "precision": "0.499",
+   "recall": "0.738",
+   "f1": "0.596",
+   "alert_rate": "0.386",
+   "fit_seconds": "265.112",
+   "tp": "284067",
+   "fp": "284636",
+   "fn": "100794",
+   "tn": "802202"
+  }
+ },
+ "calibration": {
+  "uncalibrated": {
+   "avg_precision": 0.6017,
+   "roc_auc": 0.8175,
+   "brier": 0.1449
+  },
+  "isotonic (fit on val)": {
+   "avg_precision": 0.5963,
+   "roc_auc": 0.8174,
+   "brier": 0.1448
+  }
+ },
+ "perm_rows": [
+  [
+   "drug flags (top 400)",
+   "0.1584",
+   "0.0011"
+  ],
+  [
+   "is_us",
+   "0.0719",
+   "0.0007"
+  ],
+  [
+   "reporter",
+   "0.0458",
+   "0.0002"
+  ],
+  [
+   "report_type",
+   "0.0437",
+   "0.0004"
+  ],
+  [
+   "n_drugs",
+   "0.0247",
+   "0.0007"
+  ],
+  [
+   "country",
+   "0.0143",
+   "0.0005"
+  ],
+  [
+   "age_years",
+   "0.0129",
+   "0.0004"
+  ],
+  [
+   "n_suspect_ingredients",
+   "0.0123",
+   "0.0002"
+  ],
+  [
+   "age_missing",
+   "0.0123",
+   "0.0002"
+  ],
+  [
+   "sex",
+   "0.0094",
+   "0.0001"
+  ],
+  [
+   "age_group",
+   "0.0070",
+   "0.0005"
+  ],
+  [
+   "weight_missing",
+   "0.0047",
+   "0.0001"
+  ],
+  [
+   "weight_kg",
+   "0.0017",
+   "0.0001"
+  ],
+  [
+   "n_other_ingredients",
+   "0.0015",
+   "0.0001"
+  ]
+ ],
+ "drug_perm_top": [
+  [
+   "DUPILUMAB",
+   "0.0128"
+  ],
+  [
+   "ACETAMINOPHEN",
+   "0.0082"
+  ],
+  [
+   "CLOZAPINE",
+   "0.0037"
+  ],
+  [
+   "TREPROSTINIL",
+   "0.0033"
+  ],
+  [
+   "LEUPROLIDE",
+   "0.0024"
+  ],
+  [
+   "CABOZANTINIB",
+   "0.0019"
+  ],
+  [
+   "METFORMIN",
+   "0.0018"
+  ],
+  [
+   "SOMATROPIN",
+   "0.0014"
+  ],
+  [
+   "TIRZEPATIDE",
+   "0.0012"
+  ],
+  [
+   "GOLIMUMAB",
+   "0.0011"
+  ]
+ ],
+ "ablation_rows": [
+  [
+   "all features",
+   "440",
+   "0.630",
+   "+0.000"
+  ],
+  [
+   "without patient",
+   "426",
+   "0.612",
+   "-0.018"
+  ],
+  [
+   "without report",
+   "417",
+   "0.566",
+   "-0.064"
+  ],
+  [
+   "without drug counts",
+   "437",
+   "0.622",
+   "-0.008"
+  ],
+  [
+   "without drug identity",
+   "40",
+   "0.563",
+   "-0.067"
+  ],
+  [
+   "only patient",
+   "14",
+   "0.373",
+   "-0.257"
+  ],
+  [
+   "only report",
+   "23",
+   "0.464",
+   "-0.166"
+  ],
+  [
+   "only drug counts",
+   "3",
+   "0.405",
+   "-0.225"
+  ],
+  [
+   "only drug identity",
+   "400",
+   "0.496",
+   "-0.134"
+  ]
+ ],
+ "sensitivity": [
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.03,
+   "max_iter": 100.0,
+   "val_avg_precision": 0.5989,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.03,
+   "max_iter": 300.0,
+   "val_avg_precision": 0.6215,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.03,
+   "max_iter": 600.0,
+   "val_avg_precision": 0.6269,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.1,
+   "max_iter": 100.0,
+   "val_avg_precision": 0.6217,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.1,
+   "max_iter": 300.0,
+   "val_avg_precision": 0.6301,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.1,
+   "max_iter": 600.0,
+   "val_avg_precision": 0.6309,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.3,
+   "max_iter": 100.0,
+   "val_avg_precision": 0.6263,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.3,
+   "max_iter": 300.0,
+   "val_avg_precision": 0.6254,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "learning rate x rounds",
+   "learning_rate": 0.3,
+   "max_iter": 600.0,
+   "val_avg_precision": 0.6182,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "tree size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.5993,
+   "max_leaf_nodes": 15.0,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "tree size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6135,
+   "max_leaf_nodes": 31.0,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "tree size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6226,
+   "max_leaf_nodes": 63.0,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "tree size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6301,
+   "max_leaf_nodes": 127.0,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "tree size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6315,
+   "max_leaf_nodes": 255.0,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "drug vocabulary",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.5629,
+   "max_leaf_nodes": null,
+   "top_k_drugs": 0.0,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "drug vocabulary",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.5821,
+   "max_leaf_nodes": null,
+   "top_k_drugs": 25.0,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "drug vocabulary",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.5929,
+   "max_leaf_nodes": null,
+   "top_k_drugs": 50.0,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "drug vocabulary",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6061,
+   "max_leaf_nodes": null,
+   "top_k_drugs": 100.0,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "drug vocabulary",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6197,
+   "max_leaf_nodes": null,
+   "top_k_drugs": 200.0,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "drug vocabulary",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6301,
+   "max_leaf_nodes": null,
+   "top_k_drugs": 400.0,
+   "n_train": null,
+   "seconds": null,
+   "std": null
+  },
+  {
+   "experiment": "training size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.4962,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": 10000.0,
+   "seconds": 21.4958,
+   "std": null
+  },
+  {
+   "experiment": "training size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.5582,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": 30000.0,
+   "seconds": 28.3447,
+   "std": null
+  },
+  {
+   "experiment": "training size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.5993,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": 100000.0,
+   "seconds": 38.6426,
+   "std": null
+  },
+  {
+   "experiment": "training size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6233,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": 300000.0,
+   "seconds": 64.6686,
+   "std": null
+  },
+  {
+   "experiment": "training size",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6351,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": 1000000.0,
+   "seconds": 157.9094,
+   "std": null
+  },
+  {
+   "experiment": "random seed (5 seeds)",
+   "learning_rate": null,
+   "max_iter": null,
+   "val_avg_precision": 0.6287,
+   "max_leaf_nodes": null,
+   "top_k_drugs": null,
+   "n_train": null,
+   "seconds": null,
+   "std": 0.0002
+  }
+ ],
+ "ops_rows": [
+  [
+   "0.50",
+   "0.474",
+   "0.596",
+   "0.503",
+   "22.1%",
+   "221"
+  ],
+  [
+   "0.70",
+   "0.348",
+   "0.511",
+   "0.718",
+   "36.7%",
+   "367"
+  ],
+  [
+   "0.80",
+   "0.256",
+   "0.466",
+   "0.810",
+   "45.4%",
+   "454"
+  ],
+  [
+   "0.90",
+   "0.179",
+   "0.413",
+   "0.901",
+   "57.0%",
+   "570"
+  ],
+  [
+   "0.95",
+   "0.099",
+   "0.371",
+   "0.948",
+   "66.8%",
+   "668"
+  ]
+ ],
+ "drift": [
+  {
+   "quarter": "2025Q1",
+   "split": "val",
+   "n": 312038,
+   "positive_rate": 0.2622,
+   "ap_logistic regression": 0.5571,
+   "ap_gradient boosting": 0.6512
+  },
+  {
+   "quarter": "2025Q2",
+   "split": "val",
+   "n": 314323,
+   "positive_rate": 0.2577,
+   "ap_logistic regression": 0.5445,
+   "ap_gradient boosting": 0.6176
+  },
+  {
+   "quarter": "2025Q3",
+   "split": "test",
+   "n": 377842,
+   "positive_rate": 0.2693,
+   "ap_logistic regression": 0.5429,
+   "ap_gradient boosting": 0.6141
+  },
+  {
+   "quarter": "2025Q4",
+   "split": "test",
+   "n": 325414,
+   "positive_rate": 0.2674,
+   "ap_logistic regression": 0.5383,
+   "ap_gradient boosting": 0.5961
+  },
+  {
+   "quarter": "2026Q1",
+   "split": "test",
+   "n": 354634,
+   "positive_rate": 0.2641,
+   "ap_logistic regression": 0.543,
+   "ap_gradient boosting": 0.6178
+  },
+  {
+   "quarter": "2026Q2",
+   "split": "test",
+   "n": 413809,
+   "positive_rate": 0.2475,
+   "ap_logistic regression": 0.5157,
+   "ap_gradient boosting": 0.5803
+  }
+ ],
+ "segment_rows": [
+  [
+   "all test cases",
+   "100.0%",
+   "0.262",
+   "0.602",
+   "0.262",
+   "0.262"
+  ],
+  [
+   "no top-400 drug on the case",
+   "23.9%",
+   "0.234",
+   "0.489",
+   "0.313",
+   "0.289"
+  ],
+  [
+   "age and sex both missing",
+   "14.2%",
+   "0.161",
+   "0.425",
+   "0.447",
+   "0.160"
+  ],
+  [
+   "consumer reporter",
+   "51.1%",
+   "0.189",
+   "0.532",
+   "0.426",
+   "0.141"
+  ],
+  [
+   "lawyer reporter",
+   "1.1%",
+   "0.126",
+   "0.389",
+   "0.768",
+   "0.033"
+  ],
+  [
+   "health professional, outside US",
+   "26.4%",
+   "0.450",
+   "0.643",
+   "0.093",
+   "0.734"
+  ],
+  [
+   "single drug on the case",
+   "48.1%",
+   "0.199",
+   "0.551",
+   "0.352",
+   "0.174"
+  ],
+  [
+   "10+ drugs on the case",
+   "9.8%",
+   "0.439",
+   "0.705",
+   "0.143",
+   "0.529"
+  ]
+ ],
+ "failure_examples": [
+  {
+   "example": "A. false negative, no known drug",
+   "safetyreportid": 25957795,
+   "quarter": "2025Q4",
+   "p_serious": 0.0394599839,
+   "label": "serious",
+   "death": false,
+   "hospitalization": true,
+   "reporter": "consumer",
+   "country": "US",
+   "sex": "missing",
+   "age": null,
+   "n_drugs": 1,
+   "suspect_ingredients": "CONESTAT ALFA",
+   "reactions": "NO ADVERSE EVENT"
+  },
+  {
+   "example": "B. false negative, known drug",
+   "safetyreportid": 26782616,
+   "quarter": "2026Q2",
+   "p_serious": 0.0030225753,
+   "label": "serious",
+   "death": false,
+   "hospitalization": true,
+   "reporter": "consumer",
+   "country": "US",
+   "sex": "missing",
+   "age": null,
+   "n_drugs": 1,
+   "suspect_ingredients": "DICLOFENAC",
+   "reactions": "HOSPITALISATION"
+  },
+  {
+   "example": "C. false positive",
+   "safetyreportid": 26901066,
+   "quarter": "2026Q2",
+   "p_serious": 0.9982435259,
+   "label": "not serious",
+   "death": false,
+   "hospitalization": false,
+   "reporter": "other_hcp",
+   "country": "CA",
+   "sex": "missing",
+   "age": null,
+   "n_drugs": 92,
+   "suspect_ingredients": "RITUXIMAB | ADALIMUMAB | HYDROCORTISONE | PANTOPRAZOLE | DEXAMETHASONE | ALENDRONATE",
+   "reactions": "CONGENITAL ANOMALY | EXPOSURE VIA BREAST MILK"
+  },
+  {
+   "example": "D. false negative, consumer, no age/sex",
+   "safetyreportid": 24117356,
+   "quarter": "2025Q3",
+   "p_serious": 0.0037508088,
+   "label": "serious",
+   "death": true,
+   "hospitalization": false,
+   "reporter": "consumer",
+   "country": "US",
+   "sex": "missing",
+   "age": null,
+   "n_drugs": 2,
+   "suspect_ingredients": "MOMETASONE | OLOPATADINE",
+   "reactions": "DEATH | DEVICE DELIVERY SYSTEM ISSUE"
+  },
+  {
+   "example": "E. false positive, 5 or fewer drugs",
+   "safetyreportid": 25824268,
+   "quarter": "2025Q3",
+   "p_serious": 0.9905554888,
+   "label": "not serious",
+   "death": false,
+   "hospitalization": false,
+   "reporter": "physician",
+   "country": "US",
+   "sex": "male",
+   "age": 38.0,
+   "n_drugs": 3,
+   "suspect_ingredients": "FENTANYL | COCAINE | DIAMORPHINE",
+   "reactions": "RESPIRATORY ACIDOSIS | HEART RATE INCREASED | SOMNOLENCE | RESPIRATORY DEPRESSION | MIOSIS | OVERDOSE | DRUG ABUSE | DRUG WITHDRAWAL SYNDROME"
+  }
+ ],
+ "label_noise": [
+  {
+   "group": "confident false positives (top 10% of p)",
+   "n": 28472,
+   "share_listing_a_severe_reaction": 0.0486
+  },
+  {
+   "group": "true negatives",
+   "n": 802202,
+   "share_listing_a_severe_reaction": 0.0121
+  }
+ ],
+ "unsup_method_rows": [
+  [
+   "PPMI",
+   "agglomerative",
+   "30",
+   "0.342",
+   "1.62",
+   "8.8%",
+   "0.670"
+  ],
+  [
+   "PPMI",
+   "k-means",
+   "29",
+   "0.373",
+   "1.51",
+   "10.4%",
+   "0.691"
+  ],
+  [
+   "TF-IDF",
+   "agglomerative",
+   "30",
+   "0.263",
+   "1.50",
+   "10.2%",
+   "0.724"
+  ],
+  [
+   "TF-IDF",
+   "k-means",
+   "30",
+   "0.274",
+   "1.56",
+   "8.4%",
+   "0.571"
+  ],
+  [
+   "share",
+   "agglomerative",
+   "29",
+   "0.303",
+   "1.73",
+   "7.6%",
+   "0.647"
+  ],
+  [
+   "share",
+   "k-means",
+   "30",
+   "0.327",
+   "1.64",
+   "7.8%",
+   "0.633"
+  ],
+  [
+   "share (original notebook)",
+   "k-means",
+   "12",
+   "0.232",
+   "2.08",
+   "13.8%",
+   "0.625"
+  ]
+ ],
+ "linkage_rows": [
+  [
+   "average",
+   "8",
+   "0.348",
+   "94.8%",
+   "3"
+  ],
+  [
+   "average",
+   "12",
+   "0.233",
+   "92.0%",
+   "5"
+  ],
+  [
+   "average",
+   "16",
+   "0.172",
+   "72.0%",
+   "6"
+  ],
+  [
+   "average",
+   "20",
+   "0.156",
+   "69.4%",
+   "8"
+  ],
+  [
+   "complete",
+   "8",
+   "0.184",
+   "53.8%",
+   "0"
+  ],
+  [
+   "complete",
+   "12",
+   "0.176",
+   "50.4%",
+   "2"
+  ],
+  [
+   "complete",
+   "16",
+   "0.175",
+   "33.4%",
+   "4"
+  ],
+  [
+   "complete",
+   "20",
+   "0.164",
+   "26.4%",
+   "4"
+  ],
+  [
+   "ward",
+   "8",
+   "0.191",
+   "26.0%",
+   "0"
+  ],
+  [
+   "ward",
+   "12",
+   "0.191",
+   "15.8%",
+   "0"
+  ],
+  [
+   "ward",
+   "16",
+   "0.208",
+   "11.4%",
+   "0"
+  ],
+  [
+   "ward",
+   "20",
+   "0.212",
+   "10.2%",
+   "0"
+  ]
+ ],
+ "clusters": [
+  {
+   "cluster": 3,
+   "name": "Substances of abuse, sedatives",
+   "n_drugs": 11,
+   "drugs": "Alcohol | Cocaine | Propofol | Zopiclone",
+   "reactions": "Drug abuse | Drug use disorder | Poisoning deliberate",
+   "serious": 0.6288006,
+   "share_first": 0.0095979493160091,
+   "share_last": 0.0089939130699739
+  },
+  {
+   "cluster": 26,
+   "name": "Hospital antibiotics",
+   "n_drugs": 13,
+   "drugs": "Vancomycin | Tazobactam | Piperacillin | Ceftriaxone",
+   "reactions": "Off label use | Drug ineffective | Pathogen resistance",
+   "serious": 0.53688186,
+   "share_first": 0.014590812637567376,
+   "share_last": 0.009738095857967075
+  },
+  {
+   "cluster": 8,
+   "name": "Cytotoxic chemotherapy",
+   "n_drugs": 39,
+   "drugs": "Cyclophosphamide | Carboplatin | Doxorubicin | Paclitaxel",
+   "reactions": "Febrile neutropenia | Myelosuppression | Off label use",
+   "serious": 0.52240956,
+   "share_first": 0.046706005002889774,
+   "share_last": 0.05620828704767338
+  },
+  {
+   "cluster": 14,
+   "name": "Cardiopulmonary, anticoagulants",
+   "n_drugs": 22,
+   "drugs": "Apixaban | Sacubitril | Rivaroxaban | Macitentan",
+   "reactions": "Diarrhoea | Dyspnoea | Off label use",
+   "serious": 0.46057254,
+   "share_first": 0.06931139390999508,
+   "share_last": 0.028119493749597598
+  },
+  {
+   "cluster": 5,
+   "name": "IV and dialysis fluids",
+   "n_drugs": 12,
+   "drugs": "Sodium Chloride | Dextrose | Calcium Chloride | Magnesium Chloride",
+   "reactions": "Nausea | Vomiting | Drug ineffective",
+   "serious": 0.4551351,
+   "share_first": 0.009085790448507075,
+   "share_last": 0.007016095435022501
+  },
+  {
+   "cluster": 22,
+   "name": "Parkinson's disease",
+   "n_drugs": 7,
+   "drugs": "Levodopa | Pimavanserin | Carbidopa | Foslevodopa",
+   "reactions": "On and off phenomenon | Parkinson^s disease | Fall",
+   "serious": 0.45152912,
+   "share_first": 0.010386597945714424,
+   "share_last": 0.015200387517114475
+  },
+  {
+   "cluster": 19,
+   "name": "Psychiatric, antiepileptic",
+   "n_drugs": 42,
+   "drugs": "Clozapine | Pregabalin | Quetiapine | Levetiracetam",
+   "reactions": "Drug ineffective | Intentional overdose | Poisoning deliberate",
+   "serious": 0.4286876,
+   "share_first": 0.07140899361709063,
+   "share_last": 0.05400763687040555
+  },
+  {
+   "cluster": 15,
+   "name": "Cystic fibrosis, rare disease",
+   "n_drugs": 7,
+   "drugs": "Ivacaftor | Cannabidiol | Tezacaftor | Elexacaftor",
+   "reactions": "Pneumonia | Product dose omission issue | Diarrhoea",
+   "serious": 0.42451036,
+   "share_first": 0.009029060096241975,
+   "share_last": 0.0060128962466962504
+  },
+  {
+   "cluster": 27,
+   "name": "Myeloma, immuno-oncology",
+   "n_drugs": 23,
+   "drugs": "Lenalidomide | Dexamethasone | Pembrolizumab | Pomalidomide",
+   "reactions": "Off label use | Fatigue | Drug ineffective",
+   "serious": 0.4193905,
+   "share_first": 0.08393311106100042,
+   "share_last": 0.07400228298861898
+  },
+  {
+   "cluster": 1,
+   "name": "Oral and targeted oncology",
+   "n_drugs": 35,
+   "drugs": "Palbociclib | Bevacizumab | Capecitabine | Trastuzumab",
+   "reactions": "Fatigue | Malignant neoplasm progression | Diarrhoea",
+   "serious": 0.39874136,
+   "share_first": 0.0593347043345954,
+   "share_last": 0.05173830784380092
+  },
+  {
+   "cluster": 0,
+   "name": "Late-line oncology",
+   "n_drugs": 4,
+   "drugs": "Lutetium Lu-177 Vipivotide Tetraxetan | Selinexor | Trifluridine | Tipiracil",
+   "reactions": "Fatigue | Nausea | Disease progression",
+   "serious": 0.37084895,
+   "share_first": 0.0015417562403143752,
+   "share_last": 0.003570921911883025
+  },
+  {
+   "cluster": 18,
+   "name": "Common anti-infectives, NSAIDs",
+   "n_drugs": 18,
+   "drugs": "Ibuprofen | Ritonavir | Amoxicillin | Azithromycin",
+   "reactions": "Drug ineffective | Off label use | Nausea",
+   "serious": 0.36974847,
+   "share_first": 0.030539147864784073,
+   "share_last": 0.023585970730253248
+  },
+  {
+   "cluster": 23,
+   "name": "Opioids, acetaminophen",
+   "n_drugs": 15,
+   "drugs": "Acetaminophen | Oxycodone | Hydrocodone | Morphine",
+   "reactions": "Drug withdrawal syndrome neonatal | Dependence | Learning disability",
+   "serious": 0.3601593,
+   "share_first": 0.04548436042972538,
+   "share_last": 0.02780546067274235
+  },
+  {
+   "cluster": 4,
+   "name": "Supplements in templated RA reports",
+   "n_drugs": 17,
+   "drugs": "Cetirizine | Folic Acid | Alendronate | Pseudoephedrine",
+   "reactions": "Anti-cyclic citrullinated peptide antibody positive | Pemphigus | Duodenal ulcer perforation",
+   "serious": 0.32731378,
+   "share_first": 0.010195223318137998,
+   "share_last": 0.01041254896431475
+  },
+  {
+   "cluster": 2,
+   "name": "RA and immunosuppressants",
+   "n_drugs": 25,
+   "drugs": "Methotrexate | Rituximab | Prednisone | Tofacitinib",
+   "reactions": "Drug ineffective | Anti-cyclic citrullinated peptide antibody positive | Off label use",
+   "serious": 0.31961584,
+   "share_first": 0.11376428195111338,
+   "share_last": 0.078977116365016
+  },
+  {
+   "cluster": 13,
+   "name": "Cardiometabolic, ranitidine",
+   "n_drugs": 33,
+   "drugs": "Ranitidine | Valsartan | Metformin | Aspirin",
+   "reactions": "Acute kidney injury | Drug ineffective | Dizziness",
+   "serious": 0.29403514,
+   "share_first": 0.10052453939827846,
+   "share_last": 0.050501442888002575
+  },
+  {
+   "cluster": 24,
+   "name": "Newer HIV/HCV antivirals",
+   "n_drugs": 7,
+   "drugs": "Lamivudine | Tenofovir Alafenamide | Dolutegravir | Sofosbuvir",
+   "reactions": "Product dose omission issue | Pathogen resistance | Fatigue",
+   "serious": 0.2550155,
+   "share_first": 0.00695365059102245,
+   "share_last": 0.0026974169944079
+  },
+  {
+   "cluster": 9,
+   "name": "Inhaled respiratory (device use)",
+   "n_drugs": 16,
+   "drugs": "Fluticasone | Albuterol | Budesonide | Formoterol",
+   "reactions": "Wrong technique in device usage process | Device delivery system issue | Product delivery mechanism issue",
+   "serious": 0.23484145,
+   "share_first": 0.02636698715655365,
+   "share_last": 0.024668082186712226
+  },
+  {
+   "cluster": 28,
+   "name": "ADHD stimulants",
+   "n_drugs": 6,
+   "drugs": "Amphetamine | Methylphenidate | Dextroamphetamine | Amphetamine Aspartate",
+   "reactions": "Product substitution issue | Drug ineffective | Therapeutic response changed",
+   "serious": 0.2215431,
+   "share_first": 0.00364435983220005,
+   "share_last": 0.004752549412770575
+  },
+  {
+   "cluster": 10,
+   "name": "Multiple sclerosis therapies",
+   "n_drugs": 18,
+   "drugs": "Ocrelizumab | Dimethyl | Natalizumab | Fingolimod",
+   "reactions": "Fatigue | Headache | Multiple sclerosis relapse",
+   "serious": 0.20380168,
+   "share_first": 0.028483004873171673,
+   "share_last": 0.026177980712547875
+  },
+  {
+   "cluster": 7,
+   "name": "Mixed CNS and psychiatric",
+   "n_drugs": 18,
+   "drugs": "Sodium Oxybate | Isotretinoin | Montelukast | Esketamine",
+   "reactions": "Drug ineffective | Anxiety | Off label use",
+   "serious": 0.19768584,
+   "share_first": 0.0174966627198351,
+   "share_last": 0.020608699694127874
+  },
+  {
+   "cluster": 16,
+   "name": "Injectable biologics",
+   "n_drugs": 36,
+   "drugs": "Dupilumab | Adalimumab | Secukinumab | Etanercept",
+   "reactions": "Needle issue | Drug ineffective | Injection site pain",
+   "serious": 0.17610845,
+   "share_first": 0.16384208396879973,
+   "share_last": 0.2320822312540971
+  },
+  {
+   "cluster": 17,
+   "name": "GLP-1 agonists, insulins",
+   "n_drugs": 16,
+   "drugs": "Tirzepatide | Semaglutide | Insulin Glargine | Dulaglutide",
+   "reactions": "Diarrhoea | Drug ineffective | Nausea",
+   "serious": 0.16420978,
+   "share_first": 0.0260837290382532,
+   "share_last": 0.09409095973477713
+  },
+  {
+   "cluster": 12,
+   "name": "Older HIV regimens (bone loss)",
+   "n_drugs": 6,
+   "drugs": "Emtricitabine | Tenofovir Disoproxil | Efavirenz | Rilpivirine",
+   "reactions": "Skeletal injury | Bone loss | Bone density decreased",
+   "serious": 0.14868948,
+   "share_first": 0.009113342891159101,
+   "share_last": 0.004496465022057675
+  },
+  {
+   "cluster": 25,
+   "name": "Device-delivered injectables",
+   "n_drugs": 9,
+   "drugs": "Somatropin | Pegfilgrastim | Medroxyprogesterone | Enoxaparin",
+   "reactions": "Drug dose omission by device | Device mechanical issue | Device delivery system issue",
+   "serious": 0.13448131,
+   "share_first": 0.01868121272104755,
+   "share_last": 0.021632736516848078
+  },
+  {
+   "cluster": 29,
+   "name": "OTC products, COVID antiviral",
+   "n_drugs": 12,
+   "drugs": "Nirmatrelvir | Minoxidil | Polyethylene Glycol 3350 | Dextromethorphan",
+   "reactions": "Drug ineffective | Off label use | Dizziness",
+   "serious": 0.103700094,
+   "share_first": 0.014935549982689676,
+   "share_last": 0.0131843857352763
+  },
+  {
+   "cluster": 6,
+   "name": "Injectables, injection-site reactions",
+   "n_drugs": 13,
+   "drugs": "Onabotulinumtoxina | Abaloparatide | Galcanezumab-Gnlm | Naltrexone",
+   "reactions": "Injection site pruritus | Injection site rash | Injection site pain",
+   "serious": 0.09920211,
+   "share_first": 0.015645476709355774,
+   "share_last": 0.044524406463780766
+  },
+  {
+   "cluster": 11,
+   "name": "Ophthalmics",
+   "n_drugs": 10,
+   "drugs": "Aflibercept | Latanoprost | Brimonidine | Cenegermin-Bkbj",
+   "reactions": "Product delivery mechanism issue | Eye irritation | Drug ineffective",
+   "serious": 0.084854215,
+   "share_first": 0.016617892281732875,
+   "share_last": 0.007757089077934651
+  },
+  {
+   "cluster": 20,
+   "name": "Contraceptive implants, IUDs",
+   "n_drugs": 6,
+   "drugs": "Levonorgestrel | Estradiol | Copper | Etonogestrel",
+   "reactions": "Device expulsion | Complication of device removal | Product adhesion issue",
+   "serious": 0.0513241,
+   "share_first": 0.017576802040891203,
+   "share_last": 0.014072862612799625
+  },
+  {
+   "cluster": 21,
+   "name": "Topical acne, sunscreen",
+   "n_drugs": 4,
+   "drugs": "Adapalene | Avobenzone | Octisalate | Octocrylene",
+   "reactions": "Skin burning sensation | Acne | Skin irritation",
+   "serious": 0.0015430035,
+   "share_first": 0.03922589951845442,
+   "share_last": 0.002126793197361575
+  }
+ ],
+ "unsup_sensitivity": [
+  {
+   "experiment": "random seed",
+   "setting": "0",
+   "ari_vs_main": 0.553,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "1",
+   "ari_vs_main": 0.606,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "2",
+   "ari_vs_main": 0.671,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "3",
+   "ari_vs_main": 0.609,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "4",
+   "ari_vs_main": 0.524,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "5",
+   "ari_vs_main": 0.57,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "6",
+   "ari_vs_main": 0.601,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "7",
+   "ari_vs_main": 0.607,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "8",
+   "ari_vs_main": 0.676,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "random seed",
+   "setting": "9",
+   "ari_vs_main": 0.525,
+   "silhouette": null,
+   "davies_bouldin": null,
+   "calinski_harabasz": null,
+   "largest_cluster_share": null,
+   "n_tiny_clusters": null,
+   "size_entropy": null
+  },
+  {
+   "experiment": "SVD dimensions",
+   "setting": "10",
+   "ari_vs_main": 0.467,
+   "silhouette": 0.354,
+   "davies_bouldin": 1.286,
+   "calinski_harabasz": 68.506,
+   "largest_cluster_share": 0.1,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.947
+  },
+  {
+   "experiment": "SVD dimensions",
+   "setting": "25",
+   "ari_vs_main": 0.598,
+   "silhouette": 0.307,
+   "davies_bouldin": 1.464,
+   "calinski_harabasz": 39.47,
+   "largest_cluster_share": 0.086,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.95
+  },
+  {
+   "experiment": "SVD dimensions",
+   "setting": "50",
+   "ari_vs_main": 1.0,
+   "silhouette": 0.274,
+   "davies_bouldin": 1.56,
+   "calinski_harabasz": 28.367,
+   "largest_cluster_share": 0.084,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.944
+  },
+  {
+   "experiment": "SVD dimensions",
+   "setting": "100",
+   "ari_vs_main": 0.604,
+   "silhouette": 0.214,
+   "davies_bouldin": 1.784,
+   "calinski_harabasz": 21.755,
+   "largest_cluster_share": 0.09,
+   "n_tiny_clusters": 2.0,
+   "size_entropy": 0.94
+  },
+  {
+   "experiment": "SVD dimensions",
+   "setting": "none",
+   "ari_vs_main": 0.487,
+   "silhouette": 0.152,
+   "davies_bouldin": 2.01,
+   "calinski_harabasz": 15.975,
+   "largest_cluster_share": 0.088,
+   "n_tiny_clusters": 2.0,
+   "size_entropy": 0.919
+  },
+  {
+   "experiment": "vocabulary",
+   "setting": "300 drugs x 1000 reactions",
+   "ari_vs_main": 0.552,
+   "silhouette": 0.307,
+   "davies_bouldin": 1.452,
+   "calinski_harabasz": 19.711,
+   "largest_cluster_share": 0.103,
+   "n_tiny_clusters": 3.0,
+   "size_entropy": 0.91
+  },
+  {
+   "experiment": "vocabulary",
+   "setting": "800 drugs x 1000 reactions",
+   "ari_vs_main": 0.571,
+   "silhouette": 0.224,
+   "davies_bouldin": 1.732,
+   "calinski_harabasz": 38.142,
+   "largest_cluster_share": 0.07,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.951
+  },
+  {
+   "experiment": "vocabulary",
+   "setting": "500 drugs x 500 reactions",
+   "ari_vs_main": 0.612,
+   "silhouette": 0.245,
+   "davies_bouldin": 1.615,
+   "calinski_harabasz": 28.648,
+   "largest_cluster_share": 0.094,
+   "n_tiny_clusters": 1.0,
+   "size_entropy": 0.941
+  },
+  {
+   "experiment": "vocabulary",
+   "setting": "500 drugs x 2000 reactions",
+   "ari_vs_main": 0.537,
+   "silhouette": 0.28,
+   "davies_bouldin": 1.602,
+   "calinski_harabasz": 27.227,
+   "largest_cluster_share": 0.08,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.952
+  },
+  {
+   "experiment": "case weighting",
+   "setting": "plain counts (no 1/n_drugs weight)",
+   "ari_vs_main": 0.445,
+   "silhouette": 0.268,
+   "davies_bouldin": 1.604,
+   "calinski_harabasz": 29.392,
+   "largest_cluster_share": 0.114,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.925
+  },
+  {
+   "experiment": "k",
+   "setting": "26",
+   "ari_vs_main": 0.636,
+   "silhouette": 0.24,
+   "davies_bouldin": 1.704,
+   "calinski_harabasz": 29.809,
+   "largest_cluster_share": 0.08,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.952
+  },
+  {
+   "experiment": "k",
+   "setting": "28",
+   "ari_vs_main": 0.603,
+   "silhouette": 0.256,
+   "davies_bouldin": 1.598,
+   "calinski_harabasz": 29.756,
+   "largest_cluster_share": 0.096,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.951
+  },
+  {
+   "experiment": "k",
+   "setting": "32",
+   "ari_vs_main": 0.596,
+   "silhouette": 0.256,
+   "davies_bouldin": 1.626,
+   "calinski_harabasz": 27.41,
+   "largest_cluster_share": 0.106,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.949
+  },
+  {
+   "experiment": "k",
+   "setting": "34",
+   "ari_vs_main": 0.638,
+   "silhouette": 0.249,
+   "davies_bouldin": 1.603,
+   "calinski_harabasz": 26.914,
+   "largest_cluster_share": 0.082,
+   "n_tiny_clusters": 0.0,
+   "size_entropy": 0.951
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+example,safetyreportid,quarter,p_serious,label,death,hospitalization,reporter,country,sex,age,n_drugs,suspect_ingredients,reactions
+"A. false negative, no known drug",25957795,2025Q4,0.03945998388778854,serious,False,True,consumer,US,missing,,1,CONESTAT ALFA,NO ADVERSE EVENT
+"B. false negative, known drug",26782616,2026Q2,0.003022575288816459,serious,False,True,consumer,US,missing,,1,DICLOFENAC,HOSPITALISATION
+C. false positive,26901066,2026Q2,0.9982435258963158,not serious,False,False,other_hcp,CA,missing,,92,RITUXIMAB | ADALIMUMAB | HYDROCORTISONE | PANTOPRAZOLE | DEXAMETHASONE | ALENDRONATE,CONGENITAL ANOMALY | EXPOSURE VIA BREAST MILK
+"D. false negative, consumer, no age/sex",24117356,2025Q3,0.0037508087969841757,serious,True,False,consumer,US,missing,,2,MOMETASONE | OLOPATADINE,DEATH | DEVICE DELIVERY SYSTEM ISSUE
+"E. false positive, 5 or fewer drugs",25824268,2025Q3,0.990555488794091,not serious,False,False,physician,US,male,38.0,3,FENTANYL | COCAINE | DIAMORPHINE,RESPIRATORY ACIDOSIS | HEART RATE INCREASED | SOMNOLENCE | RESPIRATORY DEPRESSION | MIOSIS | OVERDOSE | DRUG ABUSE | DRUG WITHDRAWAL SYNDROME

@@ -1,0 +1,11 @@
+# Python 3.10+
+pandas>=2.1
+numpy>=1.26
+pyarrow>=21        # parquet written by pyarrow 25 (Deepnote) fails to read on pyarrow 19
+scipy>=1.11
+scikit-learn>=1.5
+matplotlib>=3.8
+joblib>=1.3
+umap-learn>=0.5    # notebook 6, 2-D plots only
+plotly>=5          # notebook 1 only
+jupyter            # or any notebook runner (Deepnote, VS Code)

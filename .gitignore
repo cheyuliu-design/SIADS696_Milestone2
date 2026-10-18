@@ -1,0 +1,9 @@
+# Full data is too large for GitHub; regenerate with the notebooks (see README).
+data/*
+!data/sample/
+models/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+.venv/
+~$*.docx
