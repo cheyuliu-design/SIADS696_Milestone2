@@ -12,6 +12,7 @@ We use 8.5 million FDA Adverse Event Reporting System (FAERS) cases (2020Q1–20
 
 The written report is [`reports/FAERS_Milestone2_Report.pdf`](reports/FAERS_Milestone2_Report.pdf) (editable version:
 [`reports/FAERS_Milestone2_Report.docx`](reports/FAERS_Milestone2_Report.docx)). Main text 14 pages; references and appendix follow.
+Google Doc Version: https://docs.google.com/document/d/15e-l-7EQZ2BKFnk2cSwN0TVec9CHYV7W/edit
 
 ## Results at a glance
 
