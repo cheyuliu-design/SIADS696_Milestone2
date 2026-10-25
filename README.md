@@ -63,7 +63,6 @@ ADHD stimulants, ...). Without using outcomes, cluster seriousness ranges from 0
 │   ├── tables/                            every number in the report, as CSV, written by the notebooks
 │   ├── pipeline_scored_2026Q2.parquet     notebook 7 output: scored and cluster-tagged newest quarter
 │   └── build_report/                      script that builds the .docx from figures/ and tables/
-└── archive/original_notebooks/            the team's notebooks as received, and the proposal
 ```
 
 ## How to reproduce
@@ -123,4 +122,4 @@ Notebooks 02–04 also fit the 5 GB Deepnote machine; notebook 05 needs more (th
 All analysis code is the team's own. Notebook 1 and the first clustering notebook: Orko Mookerjee; first
 gradient-boosting notebook: Che-Yu Liu; cleaning (V2), EDA, features, final modeling, evaluation and pipeline:
 Nikhil Jain (see the report's statement of work). Libraries: pandas, NumPy, PyArrow, scikit-learn, SciPy,
-umap-learn, matplotlib. AI assistance (Claude) was used for code review, refactoring and drafting; see the report.
+umap-learn, matplotlib.
